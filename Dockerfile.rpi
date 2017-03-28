@@ -1,0 +1,17 @@
+FROM hypriot/rpi-node:7.4.0-slim
+
+MAINTAINER Loïck MAHIEUX <loick@loick.fr>
+
+RUN apt-get update && \
+    apt-get install git python libpcap-dev g++ make
+
+RUN mkdir -p /app
+WORKDIR /app
+
+COPY package.json /app
+RUN npm install
+
+COPY src /app/src
+COPY config /app/config
+
+CMD [ "npm", "start" ]

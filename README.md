@@ -34,10 +34,10 @@ default:
 
 ### Retrieve all devices in Domoticz
 To retrieve the identifiers of your switches on Domoticz, make this request on your Domoticz server.
-
 [http://domoticz/json.htm?type=command&param=getlightswitches](http://domoticz/json.htm?type=command&param=getlightswitches)
 
-### Docker compose
+### Docker
+__Also available for Raspberry with tag `loick111/dash-domoticz:rpi`__
 ```yaml
 version: '2'
 services:
