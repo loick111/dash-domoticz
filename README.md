@@ -8,7 +8,7 @@ You can buy them here : [Amazon Dash Buttons](https://www.amazon.com/Dash-Button
 
 ### Scan available Amazon Dash Buttons
 ```sh
-$ docker run -it loick111/dash-domoticz npm run scan
+$ docker run -it --net=host loick111/dash-domoticz npm run scan
 ```
 
 ### Configuration
