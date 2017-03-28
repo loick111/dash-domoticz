@@ -1,0 +1,26 @@
+{
+  "name": "dash-domoticz",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Loïck MAHIEUX <loick@loick.fr>",
+  "license": "MIT",
+  "main": "src/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loick111/dash-domoticz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loick111/dash-domoticz/issues"
+  },
+  "homepage": "https://github.com/loick111/dash-domoticz#readme",
+  "scripts": {
+    "start": "npm install && node src/app.js",
+    "scan": "dash-button scan"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "dash-button": "^2.0.1",
+    "domoticz-api": "^1.0.9",
+    "konfig": "^0.2.1"
+  }
+}
