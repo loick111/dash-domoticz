@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    image: loick111/dash-domoticz
+    # To customize and persist configuration
+    volume:
+      - /path/to/config:/app/config
