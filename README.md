@@ -43,7 +43,8 @@ version: '2'
 services:
   app:
     image: loick111/dash-domoticz
+    network_mode: host
     # To customize and persist configuration
-    volume:
+    volumes:
       - /path/to/config:/app/config
 ```
