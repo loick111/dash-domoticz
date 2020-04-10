@@ -26,10 +26,14 @@ default:
 ```yaml
 # button.yml
 default:
-  lights:
+  TVLights:
     name: TV Lights
     addr: xx:xx:xx:xx:xx:xx   # Amazon Dash Button Mac Address
     toggle: [1, 2, 3]         # array of domoticz idx
+  BedroomLights:
+    name: Bedroom Lights
+    addr: xx:xx:xx:xx:xx:xx   # Amazon Dash Button Mac Address
+    toggle: [4, 5]            # array of domoticz idx
 ```
 
 ### Retrieve all devices in Domoticz

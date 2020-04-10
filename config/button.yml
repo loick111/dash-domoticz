@@ -1,5 +1,9 @@
 default:
-  lights:
+  TVLights:
     name: TV Lights
     addr: xx:xx:xx:xx:xx:xx
     toggle: [1, 2, 3]
+  BedroomLights:
+    name: Bedroom Lights
+    addr: xx:xx:xx:xx:xx:xx
+    toggle: [4, 5]
